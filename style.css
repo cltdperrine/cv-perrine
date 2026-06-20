@@ -147,3 +147,47 @@ p {
   color: var(--couleur-texte-clair);
   border-bottom: 1px solid #eeeeee;
 }
+
+.poste,
+.diplome {
+  margin-bottom: 28px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.poste:last-child,
+.diplome:last-child {
+  border-bottom: none;
+}
+
+.poste h3,
+.diplome h3 {
+  color: var(--couleur-texte);
+}
+
+.meta-poste {
+  font-style: italic;
+  color: var(--couleur-texte-clair);
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.poste ul,
+.diplome ul {
+  list-style: none;
+}
+
+.poste li,
+.diplome li {
+  padding: 4px 0 4px 18px;
+  position: relative;
+  color: var(--couleur-texte-clair);
+}
+
+.poste li::before,
+.diplome li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--couleur-principale);
+}
