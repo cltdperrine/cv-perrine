@@ -191,3 +191,49 @@ p {
   left: 0;
   color: var(--couleur-principale);
 }
+
+.contact {
+  background-color: var(--couleur-fond-alt);
+  text-align: center;
+  max-width: 100%;
+  padding: 60px 20px;
+}
+
+.liens-contact {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.liens-contact a {
+  color: var(--couleur-principale-fonce);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.liens-contact a:hover {
+  text-decoration: underline;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid #eeeeee;
+  position: sticky;
+  top: 0;
+}
+
+.navigation a {
+  color: var(--couleur-texte);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.navigation a:hover {
+  color: var(--couleur-principale-fonce);
+}
