@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --couleur-principale: #7e98a8;
+  --couleur-principale-fonce: #5e7d85;
+  --couleur-texte: #1a1a1a;
+  --couleur-texte-clair: #555555;
+  --couleur-fond: #ffffff;
+  --couleur-fond-alt: #f5f7f8;
+  --police: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--police);
+  color: var(--couleur-texte);
+  line-height: 1.6;
+}
+
+header,
+section,
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--couleur-principale-fonce);
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+.hero {
+  background-color: var(--couleur-principale);
+  color: white;
+  text-align: center;
+  max-width: 100%;
+  padding: 80px 20px;
+}
+
+.hero .subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+
+.hero .location {
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+.profil p {
+  font-size: 1.05rem;
+  color: var(--couleur-texte-clair);
+  max-width: 650px;
+}
+
+.carte-projet {
+  background-color: var(--couleur-fond-alt);
+  border-radius: 12px;
+  padding: 32px;
+  border: 1px solid #e5e5e5;
+}
+
+.carte-projet h3 {
+  font-size: 1.4rem;
+  color: var(--couleur-principale-fonce);
+}
+
+.sous-titre-projet {
+  color: var(--couleur-texte-clair);
+  margin-bottom: 20px;
+}
+
+.stack-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.stack-tags li {
+  background-color: var(--couleur-principale);
+  color: white;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.liens-projet {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.liens-projet a {
+  color: var(--couleur-principale-fonce);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid var(--couleur-principale);
+}
