@@ -117,3 +117,33 @@ p {
   text-decoration: none;
   border-bottom: 2px solid var(--couleur-principale);
 }
+
+.competences {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.competences h2 {
+  width: 100%;
+}
+
+.groupe-competence {
+  flex: 1;
+  min-width: 200px;
+}
+
+.groupe-competence h3 {
+  color: var(--couleur-principale-fonce);
+  margin-bottom: 12px;
+}
+
+.groupe-competence ul {
+  list-style: none;
+}
+
+.groupe-competence li {
+  padding: 6px 0;
+  color: var(--couleur-texte-clair);
+  border-bottom: 1px solid #eeeeee;
+}
